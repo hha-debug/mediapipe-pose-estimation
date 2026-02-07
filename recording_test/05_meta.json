@@ -1,0 +1,24 @@
+{
+  "video": "D:\\MediaPipe Pose pose_estimation\\recordings\\05.MP4",
+  "label": 0,
+  "label_name": "自然坐（不刻意摆）",
+  "rotation_deg_clockwise": 0,
+  "fps": 30.0,
+  "frames_processed": 1433,
+  "missing_frames": 749,
+  "stabilizer": {
+    "ema_alpha": 0.25,
+    "visibility_threshold": 0.7,
+    "fill_missing_with_prev": true
+  },
+  "pose_model": {
+    "model_complexity": 1,
+    "min_detection_confidence": 0.7,
+    "min_tracking_confidence": 0.7,
+    "save_world_landmarks": true
+  },
+  "outputs": {
+    "merged_csv": "D:\\MediaPipe Pose pose_estimation\\recording_test\\all_landmarks.csv",
+    "marked_video": "D:\\MediaPipe Pose pose_estimation\\recording_test\\05_pose_fix.mp4"
+  }
+}

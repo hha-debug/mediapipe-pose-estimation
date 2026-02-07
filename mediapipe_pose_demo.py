@@ -15,7 +15,7 @@ pose = mp_pose.Pose(
 )
 
 # ⭐ Windows 强烈推荐 CAP_DSHOW
-cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 if not cap.isOpened():
     raise RuntimeError("❌ 摄像头打开失败")
